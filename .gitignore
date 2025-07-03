@@ -1,0 +1,50 @@
+# Dependencies
+/vendor/
+composer.lock
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Storage directories (keep structure, ignore content)
+/storage/uploads/*
+!/storage/uploads/.gitkeep
+/storage/temp/*
+!/storage/temp/.gitkeep
+/storage/output/*
+!/storage/output/.gitkeep
+/storage/logs/*
+!/storage/logs/.gitkeep
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test coverage
+/coverage/
+.phpunit.result.cache
+
+# Build artifacts
+/build/
+/dist/
+
+# Docker volumes
+/docker/data/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
