@@ -1,16 +1,37 @@
-# Gotenberg PHP PDF Converter
+# 🚀 Gotenberg PHP PDF Converter
 
-A comprehensive PHP library and web application for PDF conversion using the Gotenberg API. Convert URLs, HTML, Office documents, and manipulate PDFs with ease.
+A comprehensive PHP library and web application for PDF conversion using the powerful [Gotenberg](https://gotenberg.dev/) API. Convert URLs, HTML, Office documents, and manipulate PDFs with ease through a beautiful web interface or programmatic API.
 
-## 🚀 Features
+![PHP](https://img.shields.io/badge/PHP-8.1%2B-blue)
+![Docker](https://img.shields.io/badge/Docker-Ready-blue)
+![Gotenberg](https://img.shields.io/badge/Gotenberg-8.x-green)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-- **URL to PDF** - Convert any web page to PDF using Chromium
-- **HTML/Markdown to PDF** - Convert HTML and Markdown files to PDF
-- **Office Documents to PDF** - Support for 70+ formats (Word, Excel, PowerPoint, etc.)
-- **PDF Manipulation** - Merge, split, flatten, and manage PDF metadata
-- **Web Interface** - Easy-to-use web interface for file uploads
-- **REST API** - Programmatic access via REST endpoints
-- **Docker Ready** - Complete Docker setup included
+## ✨ Features
+
+### 🌐 **Web Conversions**
+- **URL to PDF** - Convert any website to PDF using Chromium engine
+- **HTML to PDF** - Convert custom HTML content with CSS styling
+- **Website Screenshots** - Capture high-quality screenshots in PNG, JPEG, or WebP
+
+### 📄 **Office Document Conversions**
+- **70+ File Formats** - Word, Excel, PowerPoint, LibreOffice, and more
+- **Quality Control** - High quality, normal, or compressed output
+- **Batch Processing** - Convert and merge multiple documents
+- **Format Support**: DOC, DOCX, XLS, XLSX, PPT, PPTX, ODT, ODS, ODP, RTF, TXT, CSV
+
+### 🔧 **PDF Operations**
+- **Merge PDFs** - Combine multiple PDF files into one document
+- **Split PDFs** - Extract specific pages or ranges *(coming soon)*
+- **Metadata Management** - Read and write PDF metadata *(coming soon)*
+- **PDF/A Conversion** - Archive-compliant PDF formats *(coming soon)*
+
+### 🎯 **Developer Features**
+- **Modern PHP 8.1+** - Clean, typed, and well-documented code
+- **Docker-First** - Complete containerized development environment
+- **REST API Ready** - Programmatic access to all features
+- **Comprehensive Testing** - PHPUnit tests and code quality tools
+- **PSR Standards** - Follows PHP-FIG standards
 
 ## 🐳 Docker Setup
 

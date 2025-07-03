@@ -47,6 +47,11 @@
             "@cs-check",
             "@phpstan",
             "@test"
+        ],
+        "dev-setup": [
+            "cp .env.example .env",
+            "mkdir -p storage/uploads storage/temp storage/output storage/logs",
+            "chmod -R 755 storage"
         ]
     },
     "config": {
